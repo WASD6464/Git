@@ -1,3 +1,4 @@
+print("Hello, World!")
 def main(x):
     k = 0
     c = 0

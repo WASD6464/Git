@@ -1,7 +1,6 @@
-integer = int(input())
-user = input()
-for _ in range(integer):
-    print(f'hello, {user}',end="\n")
-
-last_name = input("your last name: ")
-print(f"hello, {last_name}")
+stat = 50
+k = 1
+while stat != 0:
+    k += 1
+    stat -= 10
+print(k)

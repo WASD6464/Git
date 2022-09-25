@@ -1,15 +1,15 @@
-print("Hello, World!")
-def main(x):
-    k = 0
-    c = 0
-    for _ in range(5):
-        k += x + 2
-        c = k / 2
-    return k + c
+print("My program")
+def prog(x):
+    k = 1
+    c = 1
+    for _ in range(2):
+        k += x -1
+        c = k / 3
+    return (k + c) * 2
 
 
-a = int(input())
-print(main(a))
+count = int(input())
+print(prog(count))
 
-def x_in_cube(n):
-    return n**3
+def x_in_square(n):
+    return n**2

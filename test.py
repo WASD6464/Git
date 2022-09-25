@@ -1,3 +1,4 @@
 integer = int(input())
+user = input()
 for i in range(integer):
-    print("hello ")
+    print(f'hello, {user}')

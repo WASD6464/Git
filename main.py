@@ -7,3 +7,6 @@ def main(x):
 
 a = int(input())
 print(main(a))
+
+def x_in_square(n):
+    return n**2

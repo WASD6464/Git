@@ -1,12 +1,14 @@
 def main(x):
     k = 0
-    for _ in range(2):
-        k += x
-    return k
+    c = 0
+    for _ in range(5):
+        k += x + 2
+        c = k / 2
+    return k + c
 
 
 a = int(input())
 print(main(a))
 
-def x_in_square(n):
-    return n**2
+def x_in_cube(n):
+    return n**3

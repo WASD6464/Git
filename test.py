@@ -1,7 +1,7 @@
-integer = int(input())
+number = int(input())
 user = input()
-for _ in range(integer):
-    print(f'hello, {user}',end="\n")
+for _ in range(number - 1):
+    print(f'bye, {user}',end="\n")
 
-last_name = input("your last name: ")
-print(f"hello, {last_name}")
+last_name = input("what is your last name?: ")
+print(f"bye, {last_name}")
